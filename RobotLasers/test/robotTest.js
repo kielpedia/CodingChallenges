@@ -9,7 +9,7 @@ describe("robot output test", function(){
             southRow: [false, false, false, true, true, false, false, false]
         }]
 
-        assert.deepEqual(["Go West"], robot(conveyors))
+        assert.deepEqual(["GO WEST"], robot(conveyors))
     })
 
     it("Test 2 conveyors", function(){
@@ -24,6 +24,6 @@ describe("robot output test", function(){
                 southRow: [false, false, false, true, true, true, false, false]
             }
         ]
-        assert.deepEqual(["Go East","Go West"], robot(conveyors))
+        assert.deepEqual(["GO EAST","GO WEST"], robot(conveyors))
     })
 })

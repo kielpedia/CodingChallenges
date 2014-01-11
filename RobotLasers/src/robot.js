@@ -25,7 +25,7 @@
          tick++
      }
 
-     return eastCount >= westCount ? "Go West" : "Go East";
+     return eastCount >= westCount ? "GO WEST" : "GO EAST";
  }
 
  module.exports = commands
